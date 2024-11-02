@@ -1,0 +1,290 @@
+* {
+    font-family: sans-serif;
+    margin: 0 30px;
+    color: #747474;
+
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+.section__inne {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    margin: 0;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 250px;
+}
+
+.main-menu li {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+}
+
+.main-menu .is-current {
+    color: #00b39b;
+}
+
+.lead.section__inner {
+    display: inline;
+}
+
+.lead__logo {
+    margin-right: 48%;
+    margin-left: 48%;
+    margin-top: 80px;
+}
+
+.ttt {
+    display: flex;
+    justify-content: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.grid {
+    display: flex;
+}
+
+.col-2 {
+    font-weight: 50%;
+}
+
+.col-2 p {
+    line-height: 30px;
+}
+
+.services__item--marketplace {
+    background: #00ccb1;
+}
+
+.services__item--saas {
+    background: #3d83df;
+}
+
+.services__item--clinics {
+    background: #1b2734;
+}
+
+.services__item h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+}
+
+.services__item h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+
+.services__item {
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: -40px;
+}
+
+.services.section__inner {
+    margin-left: 0px;
+}
+
+.col-3 {
+    width: 28%;
+}
+
+
+.style-select select {
+    background: transparent;
+    height: 80px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    margin-left: 0;
+    text-decoration: underline;
+}
+
+.brands.section__inner {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+}
+
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+}
+
+.brands__logos a img {
+    height: 16px;
+}
+
+h1 {
+    font-family: "work sans";
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0;
+    text-decoration: none;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.brands__logos a:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+h1 {
+    color: #00b39b;
+    font-family: work sans Arial, sans-serif;
+    font-weight: 50;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.stats__header {
+    margin-top: 2em;
+    margin: 0;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.stats__header p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+}
+
+.stats__item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+
+.vert-align>* {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.stats__item p {
+    margin: 0;
+}
+
+.offices {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
+
+.offices.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    margin: 0;
+}
+
+.offices__header p {
+    line-height: 1.7142857143;
+    justify-content: center;
+}
+
+.offices__header {
+    padding: 0 50px;
+}
+
+.offices__header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.offices__slider {
+    display: grid;
+}
+
+
+
